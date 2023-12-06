@@ -1,0 +1,141 @@
+body{margin: 0;}
+*{
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Mulish',sans-serif;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    margin-top: 11px;
+    color: white;
+    background-color: rgb(42,42,68);
+}
+.fnav .left{
+    display: flex;
+    margin-top: 10px;
+
+}
+.left img{
+    width: 15%;
+
+}
+.left input{
+    margin-inline: 11px;
+    width: 400px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 15px;
+}
+.right p{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 25px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(251,59,91);
+    color: white;
+}
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 8px;
+    background-color: rgb(26,26,48);
+    color: white;
+}
+.sec-nav .s-left{
+    display: flex;
+}
+.sec-nav .s-right{
+    display: flex;
+}
+.sec-nav p:hover{
+    color: rgb(245,70,99);
+    cursor: pointer;
+    font-weight: 600;
+}
+.s-left p{
+    margin-inline-start: 16px;
+}
+.s-right p{
+    margin-inline-start: 22px;
+}
+.main img{
+    width: 100%;
+}
+.container h2{
+    text-align: center;
+    padding: 22px;
+}
+.container .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img{
+    width: 15%;
+    margin-block: 12px;
+    border-radius: 5px;
+
+}
+.banner img{
+    width: 100%;
+    margin-top: 40px;
+}
+.premiere{
+    background-color: rgb(8,8,19);
+    color: white;
+    padding: 33px;
+    margin-top: 40px;
+}
+.premiere img{
+    margin-left: 50px;
+}
+/* .container h2{
+    margin-right: 850px;
+
+} */
+.container .card{
+    margin-top: 11px;
+
+}
+.footer{
+    background-color: rgb(227,118,218);
+    padding: 30px;
+    margin-top: 40px;
+}
+.footer img{
+    width: 22%;
+    margin-left: 33%;
+    border-top: 2px solid gray;
+}
+.footer .icon{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* margin-left: 35%; */
+}
+.icon svg{
+    margin-inline: 15px;
+    font-size: 20px;
+    font-size: 30px;
+}
